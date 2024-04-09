@@ -6,9 +6,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:oracle:thin:@//203.249.87.57:1521/orcl";
-    private static final String USER = "S4_501";
-    private static final String PASSWORD = "pw1234";
+    private static final String URL = "";
+    private static final String USER = "";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
